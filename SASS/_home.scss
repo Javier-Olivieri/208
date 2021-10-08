@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+header {
+    position: sticky;
+   
+
+}
+
+.logo img{
+    display: inline-block;
+    width: 130px;
+    height: 100px;
+ }
+
+ .peugeot img {
+     display: inline-block;
+ }
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+  
+}
+
+nav ul li {
+    display: inline-block;
+    border: 2px double black;
+    list-style: none;
+}
+
+.camioneta img {
+    width: 100%;
+}
+
+.peugeot img {
+    width: 100%;
+}
+
+.botones a {
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+
+.camion a {
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    
+    .logo img{
+      width: 100px;
+        height : 100px;
+      }
+
+    .Motor {
+        background-color: blue;
+    }
+
+    .Equipamiento {
+        background-color: white;
+    }
+
+    .Tecnología  {
+        background-color: red;
+    }
+
+
+    .Motores {
+        background-color: lightblue;
+    }
+
+    .Equipamientos {
+       background-image: linear-gradient(to left, white, yellow, white);
+    }
+
+    .Tecnologías {
+        background-color: lightblue;
+    }
+
+
+
+ul li a {
+    color: red;
+}
+
+.head {
+    background-color: gray;
+}
+
+    
+    nav ul li {
+        display: flex;
+        flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       background-color: whitesmoke;
+       margin-top: 5px;
+       
+    }
+
+}
+
+ @media screen and (min-width: 768px) {
+
+    .botones a {
+        letter-spacing: 10px;
+    }
+
+
+     .Motor h4 {
+    font-size: 40px;
+}
+
+.Motores h4 {
+    font-size: 40px;
+}
+
+.Equipamiento h4 {
+    font-size: 40px;
+}
+
+.Equipamientos h4 {
+    font-size: 40px;
+}
+
+.Tecnología h4 {
+    font-size: 40px;
+}
+
+.Tecnologías h4 {
+    font-size: 40px;
+}
+
+.camion a {
+    letter-spacing: 10px;
+}
+
+
+    .Motores {
+        background-color: blue;
+    }
+
+
+    .Equipamientos{
+        background-color: white;
+    }
+
+    .Tecnologías  {
+        background-color: red;
+    }
+
+
+    .Motor {
+        background-color: lightblue;
+    }
+
+    .Equipamiento {
+       background-image: linear-gradient(to left, white, yellow, white);
+    }
+
+    .Tecnología {
+        background-color: lightblue;
+    }
+
+    nav ul li {
+        margin: 10px;
+        background-color: orangered;
+    } 
+
+    ul li a {
+        font-size: 20px;
+        color: white;
+    }
+ }
+    
+
+
+
+
+
+
+
+
+

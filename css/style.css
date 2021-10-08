@@ -1,0 +1,715 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.logo img {
+  display: inline-block;
+  width: 130px;
+  height: 100px;
+}
+
+.peugeot img {
+  display: inline-block;
+}
+
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: lightblue;
+}
+
+nav ul li {
+  display: inline-block;
+  border: 2px double black;
+  list-style: none;
+}
+
+.camioneta img {
+  width: 100%;
+}
+
+.peugeot img {
+  width: 100%;
+}
+
+.botones a {
+  font-family: 'Lobster', cursive;
+  color: black;
+}
+
+.camion a {
+  font-family: 'Lobster', cursive;
+  color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .logo img {
+    width: 100px;
+    height: 100px;
+  }
+  .Motor {
+    background-color: blue;
+  }
+  .Equipamiento {
+    background-color: white;
+  }
+  .Tecnología {
+    background-color: red;
+  }
+  .Motores {
+    background-color: lightblue;
+  }
+  .Equipamientos {
+    background-image: -webkit-gradient(linear, right top, left top, from(white), color-stop(yellow), to(white));
+    background-image: linear-gradient(to left, white, yellow, white);
+  }
+  .Tecnologías {
+    background-color: lightblue;
+  }
+  ul li a {
+    color: red;
+  }
+  .head {
+    background-color: gray;
+  }
+  nav ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: whitesmoke;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .botones a {
+    letter-spacing: 10px;
+  }
+  .Motor h4 {
+    font-size: 40px;
+  }
+  .Motores h4 {
+    font-size: 40px;
+  }
+  .Equipamiento h4 {
+    font-size: 40px;
+  }
+  .Equipamientos h4 {
+    font-size: 40px;
+  }
+  .Tecnología h4 {
+    font-size: 40px;
+  }
+  .Tecnologías h4 {
+    font-size: 40px;
+  }
+  .camion a {
+    letter-spacing: 10px;
+  }
+  .Motores {
+    background-color: blue;
+  }
+  .Equipamientos {
+    background-color: white;
+  }
+  .Tecnologías {
+    background-color: red;
+  }
+  .Motor {
+    background-color: lightblue;
+  }
+  .Equipamiento {
+    background-image: -webkit-gradient(linear, right top, left top, from(white), color-stop(yellow), to(white));
+    background-image: linear-gradient(to left, white, yellow, white);
+  }
+  .Tecnología {
+    background-color: lightblue;
+  }
+  nav ul li {
+    margin: 10px;
+    background-color: orangered;
+  }
+  ul li a {
+    font-size: 20px;
+    color: white;
+  }
+}
+
+/****Peugeot 208***/
+@media screen and (max-width: 767px) {
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    margin-top: 100px;
+  }
+  .card-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  .card-text {
+    -ms-flex-line-pack: center;
+        align-content: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .card-body {
+    background-image: -webkit-gradient(linear, right top, left top, from(orange), to(lightblue));
+    background-image: linear-gradient(to left, orange, lightblue);
+  }
+  .equip {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .adas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .p208 {
+    background-color: lightblue;
+  }
+  .escape {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .card-texts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  ul li {
+    font-size: 10.5px;
+    font-weight: bold;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: -10px;
+  }
+  .emage img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    margin-top: 100px;
+  }
+  .card-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  .card-text {
+    -ms-flex-line-pack: center;
+        align-content: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .card-body {
+    background-image: -webkit-gradient(linear, right top, left top, from(orange), to(lightblue));
+    background-image: linear-gradient(to left, orange, lightblue);
+  }
+  main img {
+    width: 100%;
+  }
+  .equip {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .adas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .p208 {
+    background-color: lightblue;
+  }
+  .escape {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .card-texts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  ul li {
+    font-size: 10.5px;
+    font-weight: bold;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: -10px;
+  }
+  .emage img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    margin-top: 100px;
+  }
+  .card-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  .card-text {
+    -ms-flex-line-pack: center;
+        align-content: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .card-body {
+    background-image: -webkit-gradient(linear, right top, left top, from(orange), to(lightblue));
+    background-image: linear-gradient(to left, orange, lightblue);
+  }
+  .equip {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .adas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .p208 {
+    background-color: lightblue;
+  }
+  .escape {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .card-texts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  ul li {
+    font-size: 10.5px;
+    font-weight: bold;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: -10px;
+  }
+  .emage img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    margin-top: 100px;
+  }
+  .card-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  .card-text {
+    -ms-flex-line-pack: center;
+        align-content: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .card-body {
+    background-image: -webkit-gradient(linear, right top, left top, from(orange), to(lightblue));
+    background-image: linear-gradient(to left, orange, lightblue);
+  }
+  .equip {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .adas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .p208 {
+    background-color: lightblue;
+  }
+  .escape {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .card-texts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  ul li {
+    font-size: 10.5px;
+    font-weight: bold;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: -10px;
+  }
+  .emage img {
+    width: 100%;
+  }
+}
+
+.sonido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .videoAdas video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .vide {
+    background-color: lightblue;
+  }
+  .rugir h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  .volver a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+  }
+  .volver {
+    border: 2px double black;
+    background-image: -webkit-gradient(linear, right top, left top, from(green), color-stop(orangered), to(lightblue));
+    background-image: linear-gradient(to left, green, orangered, lightblue);
+  }
+  .te h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: bold;
+    margin-top: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+  }
+  .tio h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 400px;
+    font-weight: bold;
+  }
+  .thp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hdi video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .rueda h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 400px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .videoAdas video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .vide {
+    background-color: lightblue;
+  }
+  .rugir h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  .volver a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+  }
+  .volver {
+    border: 2px double black;
+    background-image: -webkit-gradient(linear, right top, left top, from(green), color-stop(orangered), to(lightblue));
+    background-image: linear-gradient(to left, green, orangered, lightblue);
+  }
+  .te h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: bold;
+    margin-top: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+  }
+  .tio h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 400px;
+    font-weight: bold;
+  }
+  .thp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hdi video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .rueda h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 400px;
+    font-weight: bold;
+  }
+}
+
+/* Fuentes Index*/
+/*# sourceMappingURL=style.css.map */
