@@ -103,6 +103,14 @@ nav ul li {
     background-color: whitesmoke;
     margin-top: 5px;
   }
+  .pie {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -156,6 +164,14 @@ nav ul li {
   ul li a {
     font-size: 20px;
     color: white;
+  }
+  .pie {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
