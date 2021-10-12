@@ -604,7 +604,7 @@ nav ul li {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 100%;
+    width: an;
   }
   .rueda h4 {
     display: -webkit-box;

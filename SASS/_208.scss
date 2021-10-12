@@ -45,7 +45,7 @@
 }
 
 .p208 {
-    background-color:lightblue;
+    background-color: $bc;
 }
 
   .escape {
@@ -70,7 +70,7 @@
     }
 
    .emage img {
-       width: 100%;
+       width: $ancho + 50%;
       
 }
 
@@ -107,7 +107,7 @@
       }
     
       .equip {
-     width: 50%;
+     width: $ancho;
        margin: 0 auto;
        margin-top: 100px;
       }
@@ -145,7 +145,7 @@
         }
     
        .emage img {
-           width: 100%;
+           width: $ancho + 50%;
           
     }
     

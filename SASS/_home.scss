@@ -63,20 +63,20 @@ nav ul li {
       }
 
     .Motor {
-        background-color: blue;
+        background-color: $bc2;
     }
 
     .Equipamiento {
-        background-color: white;
+        background-color: $colora;
     }
 
     .Tecnología  {
-        background-color: red;
+        background-color: $bka;
     }
 
 
     .Motores {
-        background-color: lightblue;
+        background-color: $bc;
     }
 
     .Equipamientos {
@@ -84,13 +84,13 @@ nav ul li {
     }
 
     .Tecnologías {
-        background-color: lightblue;
+        background-color: $bc;
     }
 
 
 
 ul li a {
-    color: red;
+    color: $bka;
 }
 
 .head {
@@ -152,16 +152,16 @@ ul li a {
 
 
     .Motores {
-        background-color: blue;
+        background-color: $bc2;
     }
 
 
     .Equipamientos{
-        background-color: white;
+        background-color: $colora;
     }
 
     .Tecnologías  {
-        background-color: red;
+        background-color: $bka;
     }
 
 
@@ -174,7 +174,7 @@ ul li a {
     }
 
     .Tecnología {
-        background-color: lightblue;
+        background-color: $bc;
     }
 
     nav ul li {
@@ -184,7 +184,7 @@ ul li a {
 
     ul li a {
         font-size: 20px;
-        color: white;
+        color: $colora;
     }
 
     .pie {
